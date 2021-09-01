@@ -1,0 +1,16 @@
+{
+    "name": "emmanuel/introduccion-phpoop_inicio",
+    "description": "Aprendiendo Namespaces y Autoload",
+    "authors": [
+        {
+            "name": "EmmaMusica",
+            "email": "ema.araujo.ea@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./clases"
+        }
+    }
+}
